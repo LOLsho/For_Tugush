@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div, ul, li, p, form,
+button, b, a, input,
+textarea, img, section, header {
+	display: block;
+	box-sizing: border-box;
+}
