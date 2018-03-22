@@ -1,9 +1,35 @@
 .line {
 	width: 90%;
 	margin: 0 auto;
-	height: 50px;
+	height: 45px;
 	background: rgba(white,.7);
 	border: 2px solid rgb(255,134,137);
 	border-radius: 25px;
 	margin-top: 60px;
+	position: relative;
+}
+
+.line__wrap {
+	// display: none;
+    overflow: hidden;
+    width: 99%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.line__running, .line__running2 {
+	line-height: 42px;
+	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+	font-weight: 900;
+	margin-left: 0px;
+	position: absolute;
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 320px) {
+	.line {
+		margin-top: 15px;
+	}
 }
