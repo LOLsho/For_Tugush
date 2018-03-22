@@ -28,14 +28,8 @@
 	white-space: nowrap;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
 	.line {
 		margin-top: 15px;
-	}
-}
-
-@media (orientation: landscape) {
-	.line {
-		margin-top: 5px;
 	}
 }
