@@ -96,8 +96,6 @@ add_btn.addEventListener('click', function(event) {
 
 	// Убираем строку влево, чтобы у нее была возможность красиво выехать ;)
 	if (first_time) {
-		// left = -(text_width);
-		// running_line.style.marginLeft = -(text_width) + 'px';
 		
 		if (speed < 0) {
 			left = line_width;
