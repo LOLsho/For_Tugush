@@ -26,23 +26,3 @@ input::-webkit-inner-spin-button {
 	flex-direction: column;
 }
 
-
-// Это скопировал с какого-то сайта чтобы заблокировать поворот экрана на мобильных устройствах
-@media screen and (orientation:landscape) and (max-device-width: 900px) {
-    html{
-        -webkit-transform: rotate(-90deg);
-           -moz-transform: rotate(-90deg);
-            -ms-transform: rotate(-90deg);
-             -o-transform: rotate(-90deg);
-                transform: rotate(-90deg);
-        -webkit-transform-origin: left top;
-           -moz-transform-origin: left top;
-            -ms-transform-origin: left top;
-             -o-transform-origin: left top;
-                transform-origin: left top;
-        width: 320px;
-        position: absolute;
-        top: 100%;
-            left: 0
-    }
-}

@@ -16,6 +16,13 @@
 	column-rule: #fff;
 }
 
+.ticker__add-wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .ticker__text {
 	outline: none;
 	padding: 0 10px;
@@ -66,4 +73,31 @@
 	font-family: 'Poiret One', cursive;
 	font-weight: 900;
 	font-size: 18px;
+}
+
+@media screen and (max-width: 320px) {
+	.ticker {
+		height: 1000px;
+	}
+}
+
+@media (orientation: landscape) {
+
+	.ticker__form{
+		width: 90%;
+	}
+
+	.ticker__add-wrapper {
+		flex-direction: row;
+		width: 85%;
+	}
+
+	.ticker__text {
+		width: 100%;
+	}
+
+	.ticker__btn {
+		height: 50px;
+		margin-top: 0;
+	}
 }
